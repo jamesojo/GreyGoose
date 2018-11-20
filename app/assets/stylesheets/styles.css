@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+
+<head>
+<title>MyExcursion Site</title>
+  <meta charset="UTF-8">
+  <style>
+	img {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		}
+	</style>
+</head>
+
+<body>
+	
+<ul class="nav">
+  <li><a href="#home">Home</a></li>
+  <li><%=link_to 'About', welcome_about_path %></li>
+  <li><%= link_to 'Contact', welcome_contact_path %></li>
+</ul>
+
+<h1>Your Holiday</h1>
+<p style="font-size:20px;" align="center"><i>Craft your experiences, <b>your way</b></i></p>
+<img src="barca.jpg" alt="Picture of Barcelona" class="center">
+<hr>
+<p>For travellers who know they can get a better deal - without the tourist crap</p>
+
+<ul>
+  <li>Better Deal</li>
+  <li>Your Style</li>
+  <li>Flexible</li>
+</ul>
+
+<table style="width:100%" id="t01">
+	<caption>Where to next?</caption>
+	<tr>
+    <th>Amsterdam</th>
+    <th>Barcelona</th> 
+    <th>Dubai</th>
+  </tr>
+  <tr>
+    <td>Siteseeing</td>
+    <td>Las Ramblas</td> 
+    <td>JBR</td>
+  </tr>
+  <tr>
+    <td>Mama Kelly famous restaurant</td>
+    <td>The W</td> 
+    <td>White Party</td>
+  </tr>
+</table>
+
+
+<p>Let's stay <mark>connected </mark></p>
+
+<ul>
+  <li><a href="https://medium.com/@jayyoms" target="_blank" title="All about diverse perspectives">Medium</a></li>
+  <li><a href="https://twitter.com/jayyoms" target="_blank" title="Tweet, tweet, tweet">Twitter</a></li>
+  <li><a href="https://upscri.be/74acb8/" target="_blank" title="Useful toolkit for those who don't want Angel/VC money">Newsletter</a></li>
+</ul>
+
+<p> <q> Let it be known that a man tried</q></p>
+
+<!-- This quote needs to be changed -->
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For months and months, I saw imperfect pixels
+Pixels that were imperfect and I decided
+That you can't be a part of the solution if you are a part of the problem
+</blockquote>
+
+<p>The following button <em>might</em> work in the future</p>
+<button>Click me</button>
+
+<hr>
+
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+
+<address>
+Written by Yoms<br> 
+Visit us at:<br>
+twitter.com/jayyoms<br>
+17 Malcolm House<br>
+London
+</address>
+
+</body>
+
+</html>
